@@ -1,0 +1,99 @@
+
+.left{
+    float: left;
+    display : flex;
+  justify-content : center;
+  align-items : center;
+  height : 100%;
+  position: absolute;
+    padding: 5%;
+}
+.fa  {
+    color: white;
+}
+.user-friends>.fas {
+    color: white;
+}
+
+.far {
+    color: white;
+}
+.search{
+    top: 150px;
+    left: 220px;
+    position: absolute;
+
+    
+}
+.user-friends{
+    top: 220px;
+    left: 220px;
+    width: 90%;
+    position: absolute;    
+   
+}
+.user-message{
+    top: 300px;
+    left: 220px;
+    position: absolute;
+    width: 50%;
+}
+
+h5{
+    color: aliceblue;
+}
+
+.right{
+    float: right;
+    display : flex;
+  justify-content : center;
+  align-items : center;
+  height : 100%;
+  position: relative;
+  padding: 20%
+}
+
+.signup-login-sec{
+    top: 200px;
+
+}
+
+.fas {
+
+ size: f4ba;
+ 
+ height: 100%;
+ width: 50%
+}
+.bird {
+    position: absolute;
+    top: 95px;
+    left: 170px;
+    width: 69%;
+}
+.btn1{
+    border-radius: 83px;
+}
+.heading{
+    top: 150px;
+    position: absolute;
+    left: 170px;
+    width: 58%
+}
+
+.buttons-block > .btn2{
+    left: 170px;
+    width: 50%;
+    position: absolute;
+    border-radius: 30px;
+    
+}
+.buttons-block > .btn3{
+    left: 170px;
+    width: 50%;
+    top: 320px;
+    position: absolute;
+    border-radius: 30px;
+    
+    
+}
