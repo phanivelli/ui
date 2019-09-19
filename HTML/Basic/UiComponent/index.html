@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="contanier">
+      <div class="buttons-background">
+        <div class="btn red-clr"><span>Button1</span></div>
+        <div class="btn green-clr"><span>Button1</span></div>
+        <div class="btn blue-clr"><span>Button1</span></div>
+        <div class="btn orange-clr"><span>Button1</span></div>
+        <div class="btn disabled-clr"><span>Button1</span></div>
+      </div>
+      <div class="buttons-border">
+        <div class="btn red-bdr"><span>Button1</span></div>
+        <div class="btn green-bdr"><span>Button1</span></div>
+        <div class="btn blue-bdr"><span>Button1</span></div>
+        <div class="btn orange-bdr"><span>Button1</span></div>
+        <div class="btn disabled-bdr"><span>Button1</span></div>
+      </div>
+      <div class="popup-section">
+        <div class="btn-popup">
+          <button class="btn-modal blue-clr" onclick="showPop()">Modal</button>
+        </div>
+        <div class="overlay-popup" id="showModal">
+          <div class="popup-box" id="showDialouge">
+            <button class="cls-btn" title="close" onclick="hidePop()">
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim
+              sunt dolorem doloribus iusto, aperiam magnam eveniet. Perferendis
+              quasi expedita aliquid officia aut vitae harum recusandae sed,
+              iure corporis culpa at ullam aliquam a assumenda laboriosam nemo
+              voluptate error nulla quis architecto minus ex. Nisi voluptas
+              blanditiis aut, itaque quas vero.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="badges">
+        <div class="icon-wrappers">
+          <i class="fa fa-envelope fa-3x "></i>
+          <span class="badge">10</span>
+        </div>
+        <div class="icon-wrappers">
+            <i class="fa fa-envelope fa-3x "></i>
+            <span class="badge">10</span>
+          </div>
+          <div class="icon-wrappers">
+              <i class="fa fa-envelope fa-3x  "></i>
+              <span class="badge">10</span>
+            </div>
+            <div class="icon-wrappers">
+                <i class="fa fa-envelope fa-3x  "></i>
+                <span class="badge">10</span>
+              </div>
+              <div class="icon-wrappers">
+                  <i class="fa fa-envelope fa-3x  "></i>
+                  <span class="badge">10</span>
+                </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>

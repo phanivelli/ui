@@ -1,0 +1,43 @@
+.container {
+  position: relative;
+  width: 50%;
+  margin-left: 22%;
+  margin-top: 8%;
+  height: 400px;
+  text-align: center;
+  background: #e7e7e7;
+  box-shadow: 0 2px 4px 0 rgba(225, 225, 225, 1);
+}
+
+.loginlayout {
+  position: absolute;
+  top: 18%;
+  margin-left: 25%;
+  left: 0px;
+  width: 50%;
+  text-align: center;
+  height: 250px;
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+form label {
+  float: left;
+  margin-left: 16px;
+  padding: 7px;
+}
+#id {
+  margin-top: 10px;
+}
+input[type="text"] {
+  width: 85%;
+}
+input[type="button"] {
+  width: 85%;
+  color: #fff;
+  margin-top: 10px;
+  background: #4386f8;
+  border: none;
+  font-weight: bold;
+  outline: none;
+}

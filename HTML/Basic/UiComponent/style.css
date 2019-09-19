@@ -1,0 +1,155 @@
+.container {
+  width: 100%;
+  min-height: 500px;
+}
+
+.buttons-background,
+.buttons-border,
+.badges {
+  width: 80%;
+  margin: 58px 77px;
+  min-height: 100px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+.buttons-background div,
+.buttons-border div {
+  padding-top: 9px;
+  height: 28px;
+  margin: 30px 53px;
+}
+.badges div {
+  padding-top: 0px;
+  height: 28px;
+  margin: 25px 53px;
+}
+.popup-section div {
+  text-align: center;
+  padding: 27px;
+}
+.btn {
+  min-width: 100px;
+  float: left;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+}
+button {
+  border: none;
+  width: 102px;
+  height: 39px;
+  border-radius: 4px;
+}
+
+.red-bdr {
+  color: red;
+  border: 1px solid red;
+}
+.green-bdr {
+  color: #29ce73;
+  border: 1px solid #29ce73;
+}
+.blue-bdr {
+  color: #56c4ff;
+  border: 1px solid #56c4ff;
+}
+.orange-bdr {
+  color: #f7c715;
+  border: 1px solid #f7c715;
+}
+.disabled-bdr {
+  color: #ebeceb;
+  border: 1px solid #ebeceb;
+}
+.red-clr {
+  background-color: red;
+}
+.green-clr {
+  background-color: #29ce73;
+}
+.blue-clr {
+  background-color: #56c4ff;
+}
+.disabled-clr {
+  background-color: #ebeceb;
+}
+.orange-clr {
+  background-color: #f7c715;
+}
+.btn span {
+  padding: 8px;
+}
+
+.popup-section {
+  width: 80%;
+  margin-left: 75px;
+  height: 369px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+.cls-btn {
+  border: none;
+  background: red;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.btn-modal {
+  top: 150px;
+  position: relative;
+}
+.overlay-popup {
+  z-index: 10;
+  top: -112px;
+  width: 95%;
+  height: 85%;
+  position: relative;
+  background-color: rgba(45, 43, 43, 0.74);
+  visibility: hidden;
+  margin-top: 20px;
+  padding-left: 8px;
+  padding-bottom: 0px;
+  padding-top: 6px;
+  padding-right: 7px;
+}
+.popup-box {
+  width: 50%;
+  height: 100px;
+  top: 111px;
+  left: 238px;
+  z-index: 100;
+  position: absolute;
+  background-color: white;
+  visibility: hidden;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+.icon-wrappers {
+  position: relative;
+  font-weight: bold;
+  float: left;
+}
+.icon-blue {
+  color: #0088cc;
+}
+.icon-wrappers > i {
+  width: 100px;
+  color: white;
+  text-align: center;
+  vertical-align: center;
+}
+.badges {
+  background-color: #2dc3e8;
+}
+.badge {
+  width: 20px;
+  height: 14px;
+  color: white;
+  margin: 0;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  text-align: center;
+  left: 8px;
+  font-size: 12px;
+  padding: 4px;
+}
